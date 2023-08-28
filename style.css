@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+  padding: 0%;
+  margin: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #9376E0;
+  /* display: flex; */
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+
+.main-cont{
+  padding-top: 100px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.container {
+  width: 450px;
+  padding: 20px;
+  margin-top: 80px;
+  background-color: #ACBCFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button {
+  justify-content: center;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2ac000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+.btn-div{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.prog-main{
+  padding-bottom: 71px;
+}
+.prog-cont{
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+#progressContainer {
+  width: 50%;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 9px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#progressBar {
+  height: 100%;
+  background-color: #39b3f5;
+  border-radius: 5px;
+  width: 0;
+  transition: width 0.3s;
+}
+
+#progressText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.button:hover {
+  background-color: #22d715;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.hide{
+  display: none;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+}
+
